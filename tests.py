@@ -122,7 +122,7 @@ class CoinGameDPTestCase(unittest.TestCase):
     def test12(self):
         arr = [5, 10, 15, 90, 5, 1] # 1, 10, 90 
         expected = 101
-        self.assertEqual(coin_game(arr), expected)
+        self.assertEqual(coin_game_dp(arr), expected)
 
 
 if __name__ == '__main__':
